@@ -1,0 +1,31 @@
+table, td, th {
+    border: 1px solid black;
+}
+
+table {
+    width: 100%;
+}
+
+tr input:disabled {
+    background-color: gainsboro;
+}
+
+tr:nth-child(odd) input:not([disabled]) {
+    background-color: mintcream;
+}
+
+tr:nth-child(odd) th {
+    background-color: mintcream;
+}
+
+tr:nth-child(even) input:not([disabled]) {
+    background-color: lavender;
+}
+
+tr:nth-child(even) th {
+    background-color: lavender;
+}
+
+table input[type=number] {
+    width: 100%;
+}
